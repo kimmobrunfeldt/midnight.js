@@ -7,7 +7,7 @@
     }
 
     return this.each(function() {
-      
+
       // Settings
       var settings = {
         // The class that wraps each header. Used as a clipping mask.
@@ -268,7 +268,7 @@
         }
 
         // Set the header status
-        for( ix in sections ) {
+        for( var ix = 0; ix < sections.length; ++ix) {
 
           // Todo: This isn't exactly the best code.
 
